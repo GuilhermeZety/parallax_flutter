@@ -1,0 +1,79 @@
+name: teste_parallax
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^1.1.6
+  simple_shadow: ^0.3.0
+
+
+  #interessantes
+
+  #Navegação simplificada nivel hard
+  go_router: ^6.0.1  
+  #Media query no context (simplificando)
+  sized_context: ^1.0.0+1
+  #alinhamentos extras(basicamente outras vertentes do Center())
+  extra_alignments: ^1.0.0+1
+  #funcionalidades extras para colunas e rows
+  flextras: ^1.0.0
+  #ajuda a criar e da mais possibilidades para animacoes
+  flutter_animate: ^1.0.0
+  #para conseguir criar texto por volta do container
+  flutter_circular_text: ^0.3.1
+  #diversos tipos de telas diferentes(mais pra responsividade)
+  flutter_displaymode: ^0.4.0
+  #para criar uma splash de forma mais simples
+  flutter_native_splash: ^2.2.7
+  #possibilidades extras para as grid views
+  flutter_staggered_grid_view: ^0.6.2
+  #autoexplicativo  
+  image_fade: ^0.6.2
+  #salvar imagens na galeria(nao sei se é muito util mas ta)
+  image_gallery_saver: ^1.7.1
+  #particulas
+  particle_field: ^0.0.1
+  #valores aleatorios
+  rnd: ^0.2.0
+  #Simplificar o texto Rich
+  simple_rich_text: ^2.0.49
+  #indicador de pagina mais bonitin
+  smooth_page_indicator: ^1.0.0+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+  #INTERESSANTE 
+  #adiciona copy with nas classes
+  copy_with_extension_gen: ^4.0.3
+  dart_code_metrics: ^5.4.0
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+
+  fonts:
+    - family: Unbounded
+      fonts:
+        - asset: assets/fonts/Unbounded-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Unbounded-SemiBold.ttf
+          weight: 600
